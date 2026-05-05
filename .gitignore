@@ -1,0 +1,25 @@
+# 모델 파일
+*.pth
+*.onnx
+*.onnx.data
+
+# API 키
+.env
+kaggle.json
+
+# 데이터셋
+processed_opencv/
+processed_mediapipe/
+merged_data/
+
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Colab
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
