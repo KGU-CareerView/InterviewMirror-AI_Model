@@ -9,11 +9,11 @@
 
 ## 클래스 정의
 
-| ID | 클래스 | 의미 |
-|---|---|---|
-| 0 | Stable | 안정적이고 자신감 있는 상태 |
-| 1 | Nervous | 긴장하거나 불안한 상태 |
-| 2 | Neutral | 감정 표현이 없는 중립 상태 |
+| ID  | 클래스  | 의미                        |
+| --- | ------- | --------------------------- |
+| 0   | Stable  | 안정적이고 자신감 있는 상태 |
+| 1   | Nervous | 긴장하거나 불안한 상태      |
+| 2   | Neutral | 감정 표현이 없는 중립 상태  |
 
 ---
 
@@ -53,7 +53,7 @@ InterviewMirror-AI_Model/
 ## 데이터셋
 
 ```text
-베이스 데이터셋 : AffectNet 
+베이스 데이터셋 : AffectNet
 추가 데이터셋  : FER+ (Stable, Neutral 보강용)
 최종 학습 데이터: 24,118장
 클래스 분포    : Stable 33.2% / Nervous 33.2% / Neutral 33.6%
@@ -80,7 +80,7 @@ InterviewMirror-AI_Model/
 pip install -r requirements.txt
 ```
 
-
+---
 
 ## 파일 역할
 
